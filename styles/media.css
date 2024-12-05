@@ -1,0 +1,41 @@
+@media(max-width:1140px) {
+    .main-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:900px) {
+    .header-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media(max-width:650px) {
+    .header-content {
+        height: 400px;
+    }
+
+    .header-content-title {
+        font-size: 20px;
+    }
+
+    .header-list {
+        gap: 20px;
+    }
+
+    .headeer-list-link {
+        font-size: 16px;
+    }
+    
+    .footer-cosial img {
+        width: 30px;
+        height: 30px;
+    }
+}
